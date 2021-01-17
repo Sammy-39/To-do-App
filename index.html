@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <div class="container text-center my-4">
+        <div class="col-lg-6 col-md-8 col-sm-10 col-10 offset-lg-3 offset-md-2 offset-sm-1 offset-1 my-5">
+            <h1 class="my-3"> To-do List </h1>
+            <form class="form">
+                <i class="fas fa-search search"></i>
+                <input type="text" class="form-control search-input" placeholder="Search To-do list">
+            </form>
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-10 offset-lg-3 offset-md-2 offset-sm-1 offset-1 my-5">
+            <ul class="list-group list">
+                <li class="list-group-item item">
+                    <span>Hiking</span>
+                    <i class="fas fa-trash delete"></i>
+                </li>
+                <li class="list-group-item item">
+                    <span>Watch Series</span>
+                    <i class="fas fa-trash delete"></i>
+                </li>
+                <li class="list-group-item item">
+                    <span>Bike travel</span>
+                    <i class="fas fa-trash delete"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-6 col-md-8 col-sm-10 col-10 offset-lg-3 offset-md-2 offset-sm-1 offset-1 my-5">
+            <form  class="text-center input-form">
+                <label> <b> Add new todo... </b> </label>
+                <input type="text" class="form-control input" placeholder="Add new To-do">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
